@@ -1,0 +1,21 @@
+button {
+    background-color: rgb(89, 142, 186);
+    border: none;
+    color:rgb(26, 52, 63);
+    padding: 15px;
+    margin: 4px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.btnTecla {
+    background-color: rgba(152, 152, 219, 0.954);
+}
+
+.btnTime {
+    background-color: rgba(109, 109, 177, 0.954);
+}
+
+
+button:hover {
+    background-color: rgb(96, 96, 206);
+}
