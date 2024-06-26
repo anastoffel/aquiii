@@ -12,19 +12,19 @@ class Professor{
 
 class Restaurante{
     prof: Professor
-    nome_res: string
-    end_res: string
-    num_end: number
+    nome_escola: string
+    end_escola: string
+    num_escola: number
 
-    constructor(prof: Professor, nome_res: string, end_res: string, num_end: number){
+    constructor(prof: Professor, nome_escola: string, end_escola: string, num_escola: number){
         this.prof = Professor
-        this.nome_res = nome_res
-        this.end_res = end_res
-        this.num_end = num_end
+        this.nome_escola = nome_escola
+        this.end_escola = end_escola
+        this.num_escola = num_escola
     }
 
     apresentacaoRest(): void{
-        console.log(`Olá, somos o restaurante ${this.nome_res} e nosso chef é ${this.chef.nome}`)   
+        console.log(`Olá, somos o restaurante ${this.nome_escola} e nosso chef é ${this.prof.nome}`)   
     }
 }
 
